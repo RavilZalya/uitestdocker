@@ -27,6 +27,9 @@ class ContainerStartedOnceTest {
     @DisplayName("The testproject.io web site should have the correct title")
     void testProjectWebSiteShouldHaveCorrectTitle() {
         browser.get("https://www.testproject.io");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
         assertThat(browser.getTitle())
                 .isEqualTo("Community Powered Test Automation – TestProject");
     }
@@ -35,6 +38,9 @@ class ContainerStartedOnceTest {
     @DisplayName("The testproject.io blog should have the correct title")
     void testProjectBlogShouldHaveCorrectTitle() {
         browser.get("https://blog.testproject.io/");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
         assertThat(browser.getTitle())
                 .isEqualTo("TestProject - Test Automation Blog");
     }
