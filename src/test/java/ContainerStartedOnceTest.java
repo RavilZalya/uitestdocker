@@ -26,6 +26,22 @@ class ContainerStartedOnceTest {
     @Test
     @DisplayName("The testproject.io web site should have the correct title")
     void testProjectWebSiteShouldHaveCorrectTitle() {
+        browser.get("https://www.yahoo.com");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
+        browser.get("https://www.yandex.ru");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
+        browser.get("https://www.ad-juster.com");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
+        browser.get("https://www.cnn.com");
+        System.out.println("==================================================================");
+        System.out.println(browser.getTitle());
+        System.out.println("==================================================================");
         browser.get("https://www.testproject.io");
         System.out.println("==================================================================");
         System.out.println(browser.getTitle());
