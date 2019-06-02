@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testcontainers.containers.BrowserWebDriverContainer;
 import org.testcontainers.containers.BrowserWebDriverContainer.VncRecordingMode;
+import org.testcontainers.containers.DefaultRecordingFileFactory;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
@@ -20,8 +21,8 @@ class ContainerStartedOnceTest {
     @Container
     private static final BrowserWebDriverContainer BROWSER_CONTAINER = new BrowserWebDriverContainer()
             .withCapabilities((new ChromeOptions()))
-            .withRecordingMode(VncRecordingMode.RECORD_ALL, new File("./target/")
-            //.withRecordingFileFactory(new CustomRecordingFileFactory()
+            .withRecordingMode(VncRecordingMode.RECORD_ALL, new File("./build/"))
+            .withRecordingFileFactory(new DefaultRecordingFileFactory()
             );
 
     private static WebDriver browser;
