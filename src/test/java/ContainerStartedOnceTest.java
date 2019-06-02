@@ -28,7 +28,7 @@ class ContainerStartedOnceTest {
     @BeforeAll
     static void configureBrowser() {
         browser = BROWSER_CONTAINER.getWebDriver();
-        System.out.println("=================================================");
+       /* System.out.println("=================================================");
         System.out.println("=================================================");
         System.out.println(BROWSER_CONTAINER.getSeleniumAddress());
         System.out.println("=================================================");
@@ -36,6 +36,7 @@ class ContainerStartedOnceTest {
         System.out.println(BROWSER_CONTAINER.getVncAddress());
         System.out.println("=================================================");
         System.out.println("=================================================");
+        */
     }
 
     @Test
