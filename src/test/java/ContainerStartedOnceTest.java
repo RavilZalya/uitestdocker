@@ -14,7 +14,9 @@ class ContainerStartedOnceTest {
 
     @Container
     private static final BrowserWebDriverContainer BROWSER_CONTAINER = new BrowserWebDriverContainer()
-            .withCapabilities((new ChromeOptions()).addArguments("--disable-dev-shm-usage."));
+            .withCapabilities((new ChromeOptions())
+                    .addArguments("start-maximized")
+                    .addArguments("ignore-certificate-errors"));
 
     private static WebDriver browser;
 
