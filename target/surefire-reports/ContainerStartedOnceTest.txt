@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ContainerStartedOnceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.564 s <<< FAILURE! - in ContainerStartedOnceTest
-ContainerStartedOnceTest  Time elapsed: 10.563 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.519 s <<< FAILURE! - in ContainerStartedOnceTest
+ContainerStartedOnceTest  Time elapsed: 10.519 s  <<< ERROR!
 java.lang.ExceptionInInitializerError
-	at ContainerStartedOnceTest.<clinit>(ContainerStartedOnceTest.java:16)
+	at ContainerStartedOnceTest.<clinit>(ContainerStartedOnceTest.java:24)
 
