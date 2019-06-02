@@ -51,18 +51,6 @@ class ContainerStartedOnceTest {
         System.out.println("==================================================================");
         System.out.println(browser.getTitle());
         System.out.println("==================================================================");
-        browser.get("https://www.ad-juster.com");
-        System.out.println("==================================================================");
-        System.out.println(browser.getTitle());
-        System.out.println("==================================================================");
-        browser.get("https://www.cnn.com");
-        System.out.println("==================================================================");
-        System.out.println(browser.getTitle());
-        System.out.println("==================================================================");
-        browser.get("https://www.testproject.io");
-        System.out.println("==================================================================");
-        System.out.println(browser.getTitle());
-        System.out.println("==================================================================");
         assertThat(browser.getTitle())
                 .isEqualTo("Community Powered Test Automation – TestProject");
     }
