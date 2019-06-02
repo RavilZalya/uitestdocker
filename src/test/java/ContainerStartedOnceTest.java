@@ -1,4 +1,4 @@
-import org.junit.Rule;
+import org.junit.ClassRule;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Testcontainers
 class ContainerStartedOnceTest {
 
-    @Rule
+    @ClassRule
     @Container
     private static final BrowserWebDriverContainer BROWSER_CONTAINER = new BrowserWebDriverContainer()
             .withCapabilities(new ChromeOptions())
