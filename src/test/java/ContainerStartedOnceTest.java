@@ -18,7 +18,7 @@ class ContainerStartedOnceTest {
     @Container
     private static final BrowserWebDriverContainer BROWSER_CONTAINER = new BrowserWebDriverContainer()
             .withCapabilities((new ChromeOptions().setHeadless(true)))
-            .withRecordingMode(VncRecordingMode.RECORD_ALL, new File("./target/")
+            .withRecordingMode(VncRecordingMode.RECORD_ALL, new File("/target")
             //.withRecordingFileFactory(new CustomRecordingFileFactory()
             );
 
