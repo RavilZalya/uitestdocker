@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef045775-6e11-4a1d-adb1-54db6a9af1d6" name="Default Changelist" comment="" />
+    <list default="true" id="ef045775-6e11-4a1d-adb1-54db6a9af1d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContainerStartedOnceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContainerStartedOnceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContainerStartedOnceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContainerStartedOnceTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+              <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -36,15 +41,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ContainerStartedOnceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="244">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CustomRecordingFileFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +87,7 @@
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ContainerStartedOnceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomRecordingFileFactory.java" />
       </list>
     </option>
   </component>
@@ -97,8 +115,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2057" />
-    <option name="y" value="339" />
+    <option name="x" value="2197" />
+    <option name="y" value="98" />
     <option name="width" value="1717" />
     <option name="height" value="987" />
   </component>
@@ -130,6 +148,19 @@
               <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
               <item name="uitestdocker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uitestdocker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uitestdocker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,24 +173,6 @@
             <path>
               <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-chrome-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uitestdocker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-chrome-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="chrome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +297,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1960" y="48" width="1717" height="987" extended-state="0" />
+    <frame x="2197" y="98" width="1717" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21843208" />
@@ -327,7 +340,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -370,12 +383,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ContainerStartedOnceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="244">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CustomRecordingFileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,8 +4,11 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testcontainers.containers.BrowserWebDriverContainer;
+import org.testcontainers.containers.BrowserWebDriverContainer.VncRecordingMode;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
+
+import java.io.File;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -14,7 +17,10 @@ class ContainerStartedOnceTest {
 
     @Container
     private static final BrowserWebDriverContainer BROWSER_CONTAINER = new BrowserWebDriverContainer()
-            .withCapabilities((new ChromeOptions().setHeadless(true)));
+            .withCapabilities((new ChromeOptions().setHeadless(true)))
+            .withRecordingMode(VncRecordingMode.RECORD_ALL, new File("./targert/")
+            //.withRecordingFileFactory(new CustomRecordingFileFactory()
+            );
 
     private static WebDriver browser;
 
