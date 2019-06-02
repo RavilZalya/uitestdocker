@@ -28,7 +28,7 @@ class ContainerStartedOnceTest {
     void testProjectWebSiteShouldHaveCorrectTitle() {
         browser.get("https://www.testproject.io");
         assertThat(browser.getTitle())
-                .isEqualTo("TestProject - Community Powered Test Automation");
+                .isEqualTo("Community Powered Test Automation – TestProject");
     }
 
     @Test
